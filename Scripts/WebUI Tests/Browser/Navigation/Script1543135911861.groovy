@@ -1,7 +1,5 @@
 import static org.assertj.core.api.Assertions.*
-
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
 import builder.UrlBuilder
 import internal.GlobalVariable as GlobalVariable
 

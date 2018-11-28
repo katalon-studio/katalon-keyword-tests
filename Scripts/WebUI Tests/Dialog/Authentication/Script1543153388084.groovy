@@ -1,10 +1,7 @@
 import static org.assertj.core.api.Assertions.*
-
 import org.openqa.selenium.WebDriver
-
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
 import builder.UrlBuilder
 
 WebDriver driver = DriverFactory.getWebDriver()

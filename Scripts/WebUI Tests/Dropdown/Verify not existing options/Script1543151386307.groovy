@@ -1,9 +1,7 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
+import static org.assertj.core.api.Assertions.*
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import static org.assertj.core.api.Assertions.*
-
 import builder.UrlBuilder
 import internal.GlobalVariable as GlobalVariable
 
