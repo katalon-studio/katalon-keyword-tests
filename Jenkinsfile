@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuiteCollectionPath="Test Suites/All Tests"'
+                sh 'katalon-execute.sh -retry=1 -retryFailedTestCases=true -statusDelay=15 -testSuiteCollectionPath="Test Suites/All Tests"'
             }
         }
     }
